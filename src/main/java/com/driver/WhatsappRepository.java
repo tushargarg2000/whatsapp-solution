@@ -160,7 +160,7 @@ public class WhatsappRepository {
             throw new Exception("Group does not exist");
         }
 
-        return "" ;
+        return "SUCCESS";
     }
 
     public int removeUser(User user) throws Exception{
