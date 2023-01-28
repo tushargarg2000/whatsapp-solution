@@ -84,6 +84,8 @@ public class WhatsappRepository {
           int id = noOfMessage ;
 
           Message message = new Message();
+          noOfMessage = noOfMessage + 1;
+
 
         return id ;
     }
@@ -106,7 +108,6 @@ public class WhatsappRepository {
                   }
 
                   messages.add(message);
-                  noOfMessage = noOfMessage + 1;
 
                   messageHashMap.put(group,messages) ;
 
