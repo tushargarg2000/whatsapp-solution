@@ -7,6 +7,10 @@ public class Message {
     private String content;
     private Date timestamp;
 
+    Message(){
+
+    }
+
     public void setContent(String content) {
         this.content = content;
     }
@@ -30,6 +34,8 @@ public class Message {
     public Date getTimestamp() {
         return timestamp;
     }
+
+
 
 
 }
