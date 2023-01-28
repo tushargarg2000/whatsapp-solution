@@ -4,7 +4,9 @@ public class Group {
     private String name;
     private int numberOfParticipants;
 
+    public Group(){
 
+    }
 
     public int getNumberOfParticipants() {
         return numberOfParticipants;
