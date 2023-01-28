@@ -21,9 +21,6 @@ public class WhatsappRepository {
     private HashMap<Group,User> groupToAdmin = new HashMap<>() ;
 
 
-
-
-
     private int noOfGroup= 1;
 
     private int noOfMessage =1 ;
@@ -109,6 +106,7 @@ public class WhatsappRepository {
                   }
 
                   messages.add(message);
+                  noOfMessage = noOfMessage + 1;
 
                   messageHashMap.put(group,messages) ;
 
