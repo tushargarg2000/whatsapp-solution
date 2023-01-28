@@ -8,6 +8,11 @@ public class Group {
 
     }
 
+    public Group(String name,int numberOfParticipants){
+        this.name = name;
+        this.numberOfParticipants = numberOfParticipants;
+    }
+
     public int getNumberOfParticipants() {
         return numberOfParticipants;
     }

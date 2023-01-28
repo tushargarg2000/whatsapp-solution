@@ -8,7 +8,7 @@ public class User {
 
     }
 
-    User(String name,String mobile){
+    public User(String name,String mobile){
         this.mobile = mobile;
         this.name=  name;
     }
